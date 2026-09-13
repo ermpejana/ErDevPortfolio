@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Er Montallana Pejana — Computer Science student, developer, and cybersecurity learner.">
+  <title>Er Pejana — Computer Science Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;600;700;800&family=Spectral:ital,wght@0,400;0,600;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stars"></canvas>
+  <div class="nebula one"></div>
+  <div class="nebula two"></div>
+
+  <nav>
+    <div class="wrap nav-wrap">
+      <a class="callsign" href="#home"><span class="beacon"></span>ER PEJANA · DEV</a>
+      <div class="navlinks">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <header class="hero" id="home">
+      <div class="wrap hero-wrap">
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <div class="badge-pill">BS COMPUTER SCIENCE STUDENT · PHINMA SAINT JUDE COLLEGE DASMARIÑAS</div>
+            <p class="eyebrow">HELLO, I'M</p>
+            <h1 class="hero-title">Er Montallana<br><span class="hero-highlight">Pejana</span></h1>
+            <p class="hero-role">Computer Science Student · Online Seller · Developer</p>
+            <p class="hero-contact">📍 Dasmariñas City, Cavite &nbsp; · &nbsp; ☎ 09954616734 &nbsp; · &nbsp; ✉ erpejana@gmail.com</p>
+            <p class="hero-sub">
+              I’m building my skills through hands-on projects in web development, databases,
+              programming, and personal AI systems. My goal is to grow into a skilled software
+              professional who can build useful, secure, and reliable technology.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects">Explore My Work</a>
+              <a class="btn ghost" href="#contact">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-orbit"></div>
+            <div class="profile-initials">EP</div>
+            <div class="profile-name">ER PEJANA</div>
+            <div class="profile-status"><span></span> AVAILABLE FOR LEARNING & OPPORTUNITIES</div>
+          </div>
+        </div>
+
+        <div class="hero-cards-grid">
+          <div class="floating-card"><span class="card-icon">💻</span><div><strong>Developer</strong><p>Building practical systems</p></div></div>
+          <div class="floating-card"><span class="card-icon">🤖</span><div><strong>AI Builder</strong><p>ER AI personal assistant</p></div></div>
+          <div class="floating-card"><span class="card-icon">🔐</span><div><strong>Cybersecurity</strong><p>Growing security skills</p></div></div>
+          <div class="floating-card"><span class="card-icon">📚</span><div><strong>Student</strong><p>Always learning</p></div></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="trajectory"></div>
+
+    <section id="about">
+      <div class="wrap">
+        <div class="section-label">01 · PERSONAL PROFILE</div>
+        <div class="about-grid">
+          <div>
+            <h2>Turning what I learn into something I can build.</h2>
+            <p>
+              I’m a <strong>BS Computer Science student</strong> at PHINMA Saint Jude College of Cavite, with 3 years of customer service experience and experience as a self-employed online seller.
+              I enjoy learning by creating actual systems instead of only studying concepts.
+            </p>
+            <p>
+              My experience includes programming, CRUD applications, databases, web development,
+              object-oriented programming, data structures, and building personal projects.
+              I’m also developing my interest in <strong>cybersecurity</strong> and practical AI.
+            </p>
+            <p>
+              I believe good software should be useful, understandable, responsive, and secure.
+              I’m currently focused on strengthening my fundamentals and preparing for future
+              internship, OJT, and entry-level opportunities.
+            </p>
+          </div>
+
+          <div class="panel">
+            <div class="panel-title">PERSONAL READOUT</div>
+            <div class="stat-row"><span>Name</span><span>Er Pejana</span></div>
+            <div class="stat-row"><span>Program</span><span>BS Computer Science</span></div>
+            <div class="stat-row"><span>School</span><span>PHINMA SJC Dasmariñas</span></div>
+            <div class="stat-row"><span>Primary Focus</span><span>Software Development</span></div>
+            <div class="stat-row"><span>Exploring</span><span>Cybersecurity & AI</span></div>
+            <div class="stat-row"><span>Goal</span><span>Software Career</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="wrap">
+        <div class="section-label">02 · PROFESSIONAL EXPERIENCE</div>
+        <h2>Experience beyond the classroom.</h2>
+
+        <div class="experience-grid">
+          <article class="experience-card">
+            <div class="experience-meta">3 YEARS EXPERIENCE</div>
+            <h3>Customer Service Representative</h3>
+            <ul>
+              <li>Assisted customers through chat, email, and phone with professionalism and empathy.</li>
+              <li>Resolved customer concerns efficiently while maintaining high satisfaction.</li>
+              <li>Provided accurate product and service information.</li>
+              <li>Built long-term customer relationships through effective communication.</li>
+              <li>Managed multiple customer inquiries in a fast-paced environment.</li>
+              <li>Maintained customer records and ensured timely follow-ups.</li>
+              <li>Worked collaboratively with team members to deliver quality service.</li>
+            </ul>
+          </article>
+
+          <article class="experience-card">
+            <div class="experience-meta">SEPTEMBER 2025 — PRESENT</div>
+            <h3>Online Seller · Self-Employed</h3>
+            <ul>
+              <li>Buy and sell brand-new and pre-owned smartphones and gadgets.</li>
+              <li>Inspect devices thoroughly to ensure quality and functionality.</li>
+              <li>Create product listings with photos and descriptions.</li>
+              <li>Respond to customer inquiries through Facebook Marketplace and Messenger.</li>
+              <li>Negotiate prices and close successful sales.</li>
+              <li>Build customer trust through honest transactions and after-sales support.</li>
+              <li>Manage inventory, pricing, and order tracking.</li>
+              <li>Maintain positive customer relationships and repeat clients.</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="subsection-label">CRYPTO TRADING EXPERIENCE</div>
+        <div class="crypto-list">
+          <div><strong>Shuangma</strong><span>2021 · 3 months</span></div>
+          <div><strong>Admiral Baysute</strong><span>2024–2025 · 1 year</span></div>
+          <div><strong>Bulacan</strong><span>2026 · 6 months</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <div class="section-label">02 · PROJECT ARCHIVE</div>
+        <h2>Projects that represent my learning journey.</h2>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-number">PROJECT 01</div>
+            <div class="project-top"><span class="project-icon">🎫</span><span class="project-type">SYSTEM DEVELOPMENT</span></div>
+            <h3>Queue Wise</h3>
+            <p>
+              A Smart Queue Management System designed for the Registrar, Finance, and Marketing
+              offices. The system focuses on electronic queue numbers, serving-number displays,
+              staff queue management, and reporting.
+            </p>
+            <div class="stack"><span>HTML/CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span></div>
+            <div class="project-status">THESIS / ACADEMIC PROJECT</div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">PROJECT 02</div>
+            <div class="project-top"><span class="project-icon">🤖</span><span class="project-type">PERSONAL AI</span></div>
+            <h3>ER AI</h3>
+            <p>
+              A personal AI assistant project built as a web application. I explored Node.js,
+              Express, API communication, local AI with Ollama, and a custom browser interface.
+            </p>
+            <div class="stack"><span>HTML/CSS</span><span>JavaScript</span><span>Node.js</span><span>Express</span><span>Ollama</span></div>
+            <div class="project-status">PERSONAL PROJECT</div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">PROJECT 03</div>
+            <div class="project-top"><span class="project-icon">💰</span><span class="project-type">WEB APPLICATION</span></div>
+            <h3>Expense Tracker</h3>
+            <p>
+              A responsive frontend project created to practice HTML, CSS, JavaScript,
+              form validation, DOM manipulation, event handling, and practical UI design.
+            </p>
+            <div class="stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-status">COURSEWORK</div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">PROJECT 04</div>
+            <div class="project-top"><span class="project-icon">📖</span><span class="project-type">DATABASE SYSTEM</span></div>
+            <h3>Guestbook CRUD System</h3>
+            <p>
+              A database exercise using PHP and XAMPP that demonstrates Create, Read, Update,
+              and Delete operations and reinforces the importance of primary keys and WHERE clauses.
+            </p>
+            <div class="stack"><span>PHP</span><span>MySQL</span><span>XAMPP</span></div>
+            <div class="project-status">COURSEWORK</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <div class="section-label">03 · TECH STACK</div>
+        <h2>Tools and technologies I’m developing with.</h2>
+        <div class="skill-groups">
+          <div class="skill-group"><h4>PROGRAMMING</h4><div class="chip-list">
+            <span class="chip">Java</span><span class="chip">Python</span><span class="chip">JavaScript</span><span class="chip">PHP</span><span class="chip">C</span>
+          </div></div>
+          <div class="skill-group"><h4>WEB DEVELOPMENT</h4><div class="chip-list">
+            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">React</span><span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">Bootstrap</span>
+          </div></div>
+          <div class="skill-group"><h4>DATABASES</h4><div class="chip-list">
+            <span class="chip">MySQL</span><span class="chip">SQLite</span><span class="chip">Firebase</span><span class="chip">CRUD</span>
+          </div></div>
+          <div class="skill-group"><h4>DEVELOPMENT TOOLS</h4><div class="chip-list">
+            <span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">XAMPP</span><span class="chip">VS Code</span><span class="chip">Ollama</span>
+          </div></div>
+          <div class="skill-group"><h4>CORE CONCEPTS</h4><div class="chip-list">
+            <span class="chip">OOP</span><span class="chip">Data Structures</span><span class="chip">Algorithms</span><span class="chip">Databases</span><span class="chip">Web Development</span>
+          </div></div>
+          <div class="skill-group"><h4>AREAS OF INTEREST</h4><div class="chip-list">
+            <span class="chip">Cybersecurity</span><span class="chip">AI</span><span class="chip">Software Engineering</span><span class="chip">Full-Stack Development</span>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="wrap">
+        <div class="section-label">04 · EDUCATION</div>
+        <h2>Building the foundation.</h2>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-meta">CURRENT</div>
+            <h3>BS Computer Science</h3>
+            <p>PHINMA Saint Jude College Dasmariñas. Developing foundations in programming, object-oriented programming, data structures, algorithms, databases, and web development.</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-meta">COURSEWORK</div>
+            <h3>Programming & Database Development</h3>
+            <p>Hands-on academic work involving Java, PHP, MySQL, HTML, CSS, JavaScript, CRUD systems, inheritance, and database operations.</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-meta">CURRENT DIRECTION</div>
+            <h3>Cybersecurity & Practical AI</h3>
+            <p>Expanding beyond coursework by exploring cybersecurity concepts and building a local personal AI assistant with Ollama and Node.js.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="details">
+      <div class="wrap">
+        <div class="section-label">05 · ADDITIONAL PROFILE</div>
+        <div class="details-grid">
+          <div>
+            <div class="subsection-label">LANGUAGES</div>
+            <div class="chip-list"><span class="chip">Filipino</span><span class="chip">English</span></div>
+          </div>
+          <div>
+            <div class="subsection-label">PERSONAL DETAILS</div>
+            <div class="panel">
+              <div class="stat-row"><span>Date of Birth</span><span>21/03/2006</span></div>
+              <div class="stat-row"><span>Nationality</span><span>Filipino</span></div>
+              <div class="stat-row"><span>Civil Status</span><span>Single</span></div>
+              <div class="stat-row"><span>Location</span><span>Dasmariñas City, Cavite</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="subsection-label driving-label">DRIVING LICENSE</div>
+        <p class="detail-muted">Non-Professional Driver's License</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="section-label">05 · TRANSMISSION</div>
+        <div class="contact-box">
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Have a project, opportunity, or idea?</h2>
+          <p>
+            I’m open to learning opportunities, internships/OJT, collaborations, and conversations
+            about software development, cybersecurity, and technology.
+          </p>
+          <div class="contact-links">
+            <a class="btn primary" href="mailto:ermpejana@gmail.com">ermpejana@gmail.com</a>
+            <a class="btn ghost" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn ghost" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn ghost" href="https://www.facebook.com/ErKyot" target="_blank" rel="noopener">Facebook</a>
+          </div>
+          <p class="contact-note">Email · 09954616734 · Dasmariñas City, Cavite</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>© <span id="year"></span> Er Montallana Pejana · Computer Science Student · Online Seller · Developer</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
