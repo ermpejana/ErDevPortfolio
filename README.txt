@@ -1,4 +1,4 @@
-ER PEJANA — ENHANCED PORTFOLIO
+ ER PEJANA — ENHANCED PORTFOLIO
 
 Updated using the supplied résumé information.
 
@@ -21,5 +21,3 @@ Files:
 - script.js
 - README.txt
 
-Before publishing, review which personal details you want publicly visible, especially date of birth,
-phone number, and other personal information.
